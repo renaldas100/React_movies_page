@@ -3,4 +3,5 @@
 Naudotos technologojos REACT + BOOTSTRAP
 
 ## Printscreen
-![movies](https://user-images.githubusercontent.com/117721797/214679695-e8f6d917-73ea-4b36-9ef6-461a32151fd2.jpg)
+
+![movies](https://user-images.githubusercontent.com/117721797/215085407-bdd3806d-4f53-494e-8612-038770d4f79e.jpg)
