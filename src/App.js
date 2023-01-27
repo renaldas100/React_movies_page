@@ -25,7 +25,7 @@ function App() {
   const masFiltered = [];
   for (let k = 0; k < filmubaze.length; k++) {
     // const image = <img src="https://picsum.photos/200/200" class="img-fluid rounded" alt="new"/>
-    let tmp="https://picsum.photos/200/200#"+Math.random();
+    let tmp="https://picsum.photos/300/300#"+Math.random();
     const image2 = <img src={tmp} class="img-fluid rounded" alt="new"/>
 
     if(mas[k].props.product.category== pasirinkimas) {
@@ -110,7 +110,7 @@ function App() {
 
   return (
     <div className="bodyBackgroundColor">
-      <div class="container">
+      <div class="container-lg">
         <div className='row'>
           <h3 className='text-center text-light my-4'>Kataloge yra <b><i>{unique.length}</i></b> skirtingų kategorijų filmų.</h3>
           <div className='text-light fs-5 fw-bold'>3 plačiausios filmų kategorijos:</div>
@@ -138,7 +138,7 @@ function App() {
           </select>
 
         </div>
-        <div className="row col-10 mx-auto g-5 pt-5">
+        <div className="row col-md-12 mx-auto g-5 pt-5">
           {/*{mas}*/}
           {masFiltered}
         </div>
